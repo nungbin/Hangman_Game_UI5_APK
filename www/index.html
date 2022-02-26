@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+
+        <title>hangman</title>
+        <script
+            id="sap-ui-bootstrap"
+            src="resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_fiori_3"
+            data-sap-ui-resourceroots='{"Project.Hangman.hangman": "./"}'
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+            data-sap-ui-async="true"
+			data-sap-ui-preload="async"
+            data-sap-ui-frameOptions="trusted"
+        ></script>
+    </head>
+    <body class="sapUiBody">
+        <div
+            data-sap-ui-component
+            data-name="Project.Hangman.hangman"
+            data-id="container"
+            data-settings='{"id" : "hangman"}'
+        ></div>
+    </body>
+</html>
