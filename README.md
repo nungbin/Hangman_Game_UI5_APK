@@ -7,3 +7,6 @@ Run below steps first before the actual build.<br />
 3. cordova platform rm ios<br />
 4. cordova platform add browser<br />
 5. cordova platform add android@9.0.0<br />
+<br />
+Not sure why. First Android build always fails but second build succeeds.<br />
+cordova build android.<br />

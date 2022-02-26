@@ -8,10 +8,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-speechrecognition": {
-      "PACKAGE_NAME": "com.noki_online.ui5app"
+      "PACKAGE_NAME": "com.surasabin.ui5app"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.noki_online.ui5app"
+      "PACKAGE_NAME": "com.surasabin.ui5app"
     }
   },
   "dependent_plugins": {}
